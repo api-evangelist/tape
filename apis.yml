@@ -1,4 +1,16 @@
 aid: tape
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tape.png
 name: tape
 description: tape is a company surfaced as a portfolio company of slow-ventures and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,12 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-website-status: parked
+x-website-status-note: 'https://tape.tv resolves to a parked Sedo "This website is
+  for sale!" page (confirmed 2026-07-21) — no active company, product, API, or developer
+  surface. The correct tape company/domain for this Slow Ventures portfolio lead
+  could not be confirmed without web search (search budget exhausted this pass).'
 tags:
 - Company
 apis: []
@@ -23,3 +40,8 @@ maintainers:
 common:
 - type: Website
   url: https://tape.tv
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
